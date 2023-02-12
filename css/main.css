@@ -6,6 +6,16 @@ body{
     margin: 0 12em;
 }
 
+.left-picture{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 3em 0 0 1em;
+    width: 7em;
+    height: 40em;
+    object-fit: contain;
+}
+
 header{
     display: flex;
     align-items: center;
