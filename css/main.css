@@ -173,10 +173,6 @@ header nav a{
     color: #757575;
 }
 
-.resume-summary-container{
-
-}
-
 .resume-summary-container h1{
     margin-bottom: 1.5em;
     text-align: center;
@@ -226,4 +222,46 @@ header nav a{
     align-items: center;
     justify-content: center;
     margin-top: 2em;
+}
+
+.contact {
+    margin: 10em 0;
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.contact div {
+    width: 38%;
+}
+
+.contact h1{
+    font-size: 2.2em;
+}
+
+.contact p{
+    color: #757575;
+    font-size: 1.2em;
+}
+
+.social-media-container{
+    margin-top: 2.5em;
+    display: flex;
+    gap: 1em;
+}
+
+.social-media-container img{
+    width: 1.6em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+form input, textarea{
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
