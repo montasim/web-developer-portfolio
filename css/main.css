@@ -20,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2.5em 0;
+    margin: 4.5em 0;
 }
 
 .website-name span{
@@ -55,4 +55,32 @@ header nav a{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 700;
+}
+
+.introduction h2{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.introduction h1{
+    font-size: 4.5em;
+    font-weight: 700;
+    line-height: 0.4em;
+}
+
+.introduction p{
+    color: #757575;
+    font-size: 1.2em;
+}
+
+.download-resume{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: max-content;
+    margin-top: 2.2em;
+}
+
+.download-resume img{
+    width: 1.5em;
 }
