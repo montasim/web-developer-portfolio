@@ -6,21 +6,29 @@ body{
     margin: 0 12em;
 }
 
-.left-picture{
+.left-picture, .right-picture{
     position: absolute;
+    object-fit: contain;
+}
+
+.left-picture{
     top: 0;
     left: 0;
     margin: 3em 0 0 1em;
     width: 7em;
     height: 40em;
-    object-fit: contain;
+}
+
+.right-picture{
+    right: 0;
+    z-index: -1;
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4.5em 0;
+    margin: 4em 0;
 }
 
 .website-name span{
@@ -57,6 +65,14 @@ header nav a{
     font-weight: 700;
 }
 
+.introduction {
+    display: flex;
+}
+
+.introduction div {
+    width: 45%;
+}
+
 .introduction h2{
     font-size: 2.5em;
     font-weight: 600;
@@ -83,4 +99,8 @@ header nav a{
 
 .download-resume img{
     width: 1.5em;
+}
+
+.developer-picture{
+    margin: -3.65em 0 0 5em;
 }
