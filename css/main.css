@@ -172,3 +172,58 @@ header nav a{
 .skills-container p{
     color: #757575;
 }
+
+.resume-summary-container{
+
+}
+
+.resume-summary-container h1{
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.resume-summary-container hr{
+    margin: 2em 0;
+    border-width: 1px;
+}
+
+.education-experience-container{
+    display: flex;
+    gap: 3em;
+}
+
+.education-container{
+    width: 50%;
+    text-align: justify;
+}
+
+.education-container h2{
+    font-size: 1.3em;
+}
+
+.education-container h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.education-container h3{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.education-container p{
+    color: #757575;
+}
+
+.resume-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
