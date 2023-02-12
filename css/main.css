@@ -28,7 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4em 0 7em 0;
+    margin: 4em 0 8em 0;
 }
 
 .website-name span{
@@ -102,4 +102,38 @@ header nav a{
     width: 35em;
     height: 38em;
     object-fit: contain;
+}
+
+.about-me{
+    margin: 10em 0;
+    text-align: center;
+}
+
+.about-me h1{
+    margin-bottom: 1.5em;
+    font-size: 2.2em;
+}
+
+.about-me p{
+    color: #757575;
+    font-size: 1.2em;
+}
+
+.about-me div p{
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+    font-size: 1.4em;
+}
+
+.about-me div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.about-me div p strong{
+    color: #000000;
+    line-height: 2em;
 }
