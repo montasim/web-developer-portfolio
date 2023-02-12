@@ -28,7 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4em 0 8em 0;
+    margin: 3.5em 0 8em 0;
 }
 
 .website-name span{
@@ -136,4 +136,39 @@ header nav a{
 .about-me div p strong{
     color: #000000;
     line-height: 2em;
+}
+
+.what-i-do{
+    margin: 10em 0;
+}
+
+.what-i-do h1{
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.skills-container div{
+    width: 12em;
+    background: #FFFFFF;
+    box-shadow: 0 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skills-container h1{
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.skills-container p{
+    color: #757575;
 }
