@@ -28,7 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4em 0;
+    margin: 4em 0 7em 0;
 }
 
 .website-name span{
@@ -69,10 +69,6 @@ header nav a{
     display: flex;
 }
 
-.introduction div {
-    width: 45%;
-}
-
 .introduction h2{
     font-size: 2.5em;
     font-weight: 600;
@@ -102,5 +98,8 @@ header nav a{
 }
 
 .developer-picture{
-    margin: -3.65em 0 0 5em;
+    margin: -22.65em 0 0 5em;
+    width: 45em;
+    height: 55em;
+    object-fit: contain;
 }
